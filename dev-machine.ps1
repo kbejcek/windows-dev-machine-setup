@@ -18,8 +18,8 @@ Set-ItemProperty -Path HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\
 Set-ItemProperty -Path HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced -Name MMTaskbarMode -Value 2
 
 # Turn on windows features
-choco install -y Microsoft-Hyper-V-All --source="'windowsFeatures'"
-choco install -y Microsoft-Windows-Subsystem-Linux --source="'windowsfeatures'"
+#choco install -y Microsoft-Hyper-V-All --source="'windowsFeatures'"
+#choco install -y Microsoft-Windows-Subsystem-Linux --source="'windowsfeatures'"
 
 # Browsers
 choco install -y googlechrome
@@ -31,7 +31,7 @@ choco install -y git --package-parameters="'/GitAndUnixToolsOnPath /WindowsTermi
 choco install -y github-desktop
 choco install -y linqpad
 choco install -y nodejs-lts
-choco install -y docker-desktop
+#choco install -y docker-desktop
 
 
 # Common utilities
