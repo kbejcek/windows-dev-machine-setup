@@ -24,6 +24,7 @@ Set-ItemProperty -Path HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\
 # Browsers
 choco install -y googlechrome
 choco install -y firefox
+choco install microsoft-edge-insider
 
 # Dev tools
 choco install -y vscode
