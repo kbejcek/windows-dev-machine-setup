@@ -24,7 +24,7 @@ Set-ItemProperty -Path HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\
 # Browsers
 choco install -y googlechrome
 choco install -y firefox
-choco install microsoft-edge-insider
+#choco install microsoft-edge-insider
 
 # Dev tools
 choco install -y vscode
@@ -41,7 +41,7 @@ choco install -y adobereader
 choco install -y filezilla
 choco install -y paint.net
 choco install -y treesizefree
-choco install -y keepass.install
+choco install -y 1password
 
 
 # Removed stuff that comes pre installed with Windows.  From: https://github.com/microsoft/windows-dev-box-setup-scripts/blob/master/scripts/RemoveDefaultApps.ps1
